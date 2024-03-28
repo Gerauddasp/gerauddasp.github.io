@@ -84,7 +84,7 @@ section h2 {
 }
 
 .company.location {
-  color: rgb(0, 0, 0);
+  color: rgb(34, 64, 92);
 }
 
 .job {
@@ -94,6 +94,11 @@ section h2 {
 }
 
 .job.title {
+  color: rgb(0, 140, 255);
+  padding-bottom: 0.5em;
+}
+
+.job.date {
   color: rgb(0, 140, 255);
   padding-bottom: 0.5em;
 }
