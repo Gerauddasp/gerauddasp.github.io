@@ -1,0 +1,173 @@
+/*
+https://app.enhancv.com/resume/new?example=predefined-csPEvL3LqowBgO8XETa0cmoAFylpo28XwcxlfdbV&_gl=1*1u9p42h*_ga*ODg0Mzg3MTA5LjE3MDkwMzY3NjQ.*_ga_4KRKJHBDT0*MTcwOTAzNjc2My4xLjEuMTcwOTAzNjgwNy42MC4wLjE5MzU5MTM5NTk.
+*/
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 11pt;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+    padding: 1cm 2cm 1cm 2cm;
+    /* border: 1px dotted #ccc; */
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(34, 64, 92);
+    margin: 0;
+    gap: 2px;
+}
+
+.header.name {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: rgb(0, 140, 255);
+    padding: 0;
+    margin-top: 0;
+}
+
+.header.position {
+    font-size: 1.5em;
+    font-weight: 500;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header.position span {
+    margin: 0 10px;
+}
+
+.header.contact {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.header.contact li {
+    margin-right: 20px;
+}
+
+section h2 {
+    margin-top: 5px;
+    color: rgb(0, 140, 255);
+    border-bottom: 2px solid rgb(0, 140, 255);
+    text-align: center;
+}
+
+.experience * {
+    margin: 0;
+    padding: 0;
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+
+.company.name {
+    color: rgb(34, 64, 92);
+}
+
+.company.location {
+    color: rgb(0, 0, 0);
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.job.title {
+    color: rgb(0, 140, 255);
+}
+
+.job.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+.strengths {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.strengths li {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: flex-start;
+    margin-right: 1em;
+    max-width: 32%;
+}
+
+.strength-icon {
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+.strength-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.strength-content h4 {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 140, 255);
+}
+
+.skills {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.skills li {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.skills li i {
+    margin-right: 2px;
+}
+
+.material-icons {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media print {
+    body {
+        border: none;
+    }
+}

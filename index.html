@@ -7,89 +7,186 @@
     <title>Géraud d'Aspremont - Resume</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <main class="container">
-        <header class="contact">
-            <h1 class="contact name">Géraud d'Aspremont</h1>
-            <p class="contact title">Data Scientist Lead</p>
-            <div class="contact details">
-                <p class="contact details point"><i class="material-icons">mail_outline</i> <a
-                        href="mailto:aspremont@me.com">aspremont@me.com</a></p>
-                <p class="contact details point"><i class="material-icons">phone</i> +32.470.85.24.54</p>
-                <p class="contact details point"><i class="material-icons">location_on</i> Luxemburg</p>
-            </div>
-            </p>
-        </header>
-        <div class="columns">
-            <div class="column left">
-                <section id="summary">
-                    <h2>Summary</h2>
-                    <p>Your professional summary here.</p>
-                </section>
-                <section id="experience">
-                    <h2>Experience</h2>
-                    <div class="experience">
-                        <h3 class="experience company">Skai.io
-                            <span class="experience details">
-                                <i class="material-icons">calendar_today</i> 01/2020 - 12/2022 · 2 yrs 11 mos
-                            </span>
-                        </h3>
-                            <div class="experience consecutive-jobs">
-                                <h4 class="experience position title">
-                                    <span><i class="material-icons">location_on</i></span>
-                                    Data Scientist Lead
-                                </h4>
-                                    <div class="experience position section">
-                                        <p class="experience position details">
-                                            <i class="material-icons">calendar_today</i> 01/2020 - 12/2022 · 2 yrs 11 mos
-                                            <i class="material-icons">location_on</i> Luxemburg
-                                        </p>
-                                        <p class="experience position description">Your job description here.</p>
-                                    </div>
-                                <h4 class="experience position title">Data Scientist Lead</h4>
-                                <p class="experience position details">
-                                    <i class="material-icons">calendar_today</i> 01/2020 - 12/2022 · 2 yrs 11 mos
-                                    <i class="material-icons">location_on</i> Luxemburg
-                                </p>
-                                <p class="experience position description">Your job description here.</p>
-                            </div>
-                    </div>
-                </section>
-                <section id="education">
-                    <h2>Education</h2>
-                    <div class="experience">
-                        <h3 class="experience title">Masters in Machine Learning</h3>
-                        <h4 class="experience company">University College London</h4>
-                        <p class="experience details">
-                            <i class="material-icons">calendar_today</i> 01/2020 - 12/2022
-                            <i class="material-icons">location_on</i> London, UK
-                        </p>
-                    </div>
-                </section>
-                <section id="languages">
-                    <h2>Languages</h2>
-                </section>
-            </div>
-            <div class="column right">
-                <section id="strengths">
-                    <h2>Strengths</h2>
-                    <h4><i class="material-icons">location_on</i>Complex Problem Solving</h4>
-                    <p>Hello</p>
-                </section>
-                <section id="skills">
-                    <h2>Skills</h2>
-                    <p>R & TidyVerse.</p>
-                </section>
-                <section id="achievements">
-                    <h2>Achievements</h2>
-                    <p>Key achievements in your career.</p>
-                </section>
-            </div>
+    <div class="header">
+        <h1 class="header name">GÉRAUD D'ASPREMONT</h1>
+        <ul class="header position">
+            <li>Lead Data Scientist</li>
+            <span>|</span>
+            <li>Machine Learning Engineer</li>
+        </ul>
+        <ul class="header contact">
+            <li><i class="fa-solid fa-phone"></i> +32 470 85 24 54</li>
+            <li><i class="fa-solid fa-envelope"></i> aspremont@me.com</li>
+            <li><i class="fab fa-linkedin"></i> gdaspremont</li>
+            <li><i class="fa-solid fa-location-dot"></i> Luxemburg, BE</li>
+        </ul>
+    </div>
+    <section>
+        <h2>Summary</h2>
+        <p>
+            With over a decade of expertise in machine learning, I boast a distinguished history of tackling real-world challenges with state-of-the-art techniques. Key achievements include successfully transitioning numerous models from proof of concept to production, powering flagship products at Skai.io. Currently, I derive immense satisfaction from mentoring the next generation of ML practitioners.
+        </p>
+    </section>
+    <section class="experience">
+        <h2>Experience</h2>
+        <div class="company">
+            <span><h3 class="company name">Skai.io</span></h3></span>
+            <span><h4 class="company location">London, UK</h4></span>
         </div>
-    </main>
+        <div class="job">
+            <span><h4 class="job title">Research | Core Lead Data Scientist</h4></span>
+            <span><h4 class="job date">2/2020 - Present (Remote)</h4></span>
+        </div>
+        <!-- <p class="job description">
+            Developed a predictive ad model that increased click-through rate by 25%. 
+        </p> -->
+        <ul class="job details">
+            <li>Developed predictive analytics & forecasting services with Deep Learning & Bayesian models.</li>
+            <li>Led optimization tool overhaul using convex techniques, enhancing campaign efficiency.</li>
+            <li>Championed SOTA AI/ML adoption, improving team's model development and MLOps practices.</li>
+        </ul>
+        <div class="job">
+            <span><h4 class="job title">Research | Core Data Scientist</h4></span>
+            <span><h4 class="job date">11/2018 - 2/2020</h4></span>
+        </div>
+        <!-- <p class="job description">
+            Developed geo-location model for a Platinum client's $100M campaign, and streamlined tool adoption with R-packages for team efficiency.
+        </p> -->
+        <ul class="job details">
+            <li>Revamped core model impacting all others by enhancing key metrics forecasting with Gradient Boosting, serving over 150M daily estimations.</li>
+            <li>Initiated AWS SageMaker & Airflow use, now a template for all future projects.</li>
+        </ul>
+        <div class="job">
+            <span><h4 class="job title">Research | Senior In-Market Data Scientist</h4></span>
+            <span><h4 class="job date">1/2017 - 11/2018</h4></span>
+        </div>
+        <!-- <p class="job description">
+            Developed geo-location model for a Platinum client's $100M campaign, and streamlined tool adoption with R-packages for team efficiency.
+        </p> -->
+        <ul class="job details">
+            <li>
+                Developed geo-location based optimisation model for a Platinum client's $100M/year campaigns.
+            </li>
+            <li>
+                Streamlined ML/Statistical techniques adoption with R-packages for team efficiency.
+            </li>
+        </ul>
+        <div class="job">
+            <span><h4 class="job title">Research | In-Market Data Scientist</h4></span>
+            <span><h4 class="job date">11/2015 - 1/2017</h4></span>
+        </div>
+        <!-- <p class="job description">
+            
+        </p> -->
+        <ul class="job details">
+            <li>Pitched and optimise tools and proved superiority via A/B tests.</li>
+        </ul>
+        <div class="company">
+            <span><h3 class="company name">Ebay</span></h3></span>
+            <span><h4 class="company location">London, UK</h4></span>
+        </div>
+        <div class="job">
+            <span><h4 class="job title">Advertising Team - Programmatic Yield Manager & Data Analyst</h4></span>
+            <span><h4 class="job date">11/2014 - 11/2015</h4></span>
+        </div>
+        <div class="company">
+            <span><h3 class="company name">KBL</span></h3></span>
+            <span><h4 class="company location">Luxemburg, LU</h4></span>
+        </div>
+        <div class="job">
+            <span><h4 class="job title">Market Floor - Junior Trader in Derivatives</h4></span>
+            <span><h4 class="job date">4/2012 - 10/2012</h4></span>
+        </div>
+    </section>
+    <!-- <section>
+        <h2>Strengths</h2>
+        <ul class="strengths">
+            <li>
+                <div class="strength-icon">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="strength-content">
+                    <h4>Complex Problem Solving</h4>
+                    <p>Identifying complex problems and reviewing related information</p>
+                </div>
+            </li>
+            <li>
+                <div class="strength-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="strength-content">
+                    <h4>Complex Problem Solving</h4>
+                    <p>Identifying complex problems and reviewing related information to develop and evaluate options and implement solutions.</p>
+                </div>
+            </li>
+            <li>
+                <div class="strength-icon">
+                    <i class="fa-solid fa-medal"></i>
+                </div>
+                <div class="strength-content">
+                    <h4>Complex Problem Solving</h4>
+                    <p>Identifying complex problems and reviewing related information to develop and evaluate options and implement solutions.</p>
+                </div>
+            </li>
+        </ul>
+    </section> -->
+    <section class="experience">
+        <h2>Education</h2>
+        <div class="company">
+            <span><h3 class="company name">University College London</span></h3></span>
+            <span><h4 class="company location">London, UK</h4></span>
+        </div>
+        <div class="job">
+            <span><h4 class="job title">MSc in Machine Learning</h4></span>
+            <span><h4 class="job date">2013 - 2014</h4></span>
+        </div>
+        <div class="company">
+            <span><h3 class="company name">University of St Andrews</span></h3></span>
+            <span><h4 class="company location">St. Andrews, UK</h4></span>
+        </div>
+        <div class="job">
+            <span><h4 class="job title">MSc in Finance & Management</h4></span>
+            <span><h4 class="job date">2010 -2011</h4></span>
+        </div>
+        <div class="company">
+            <span><h3 class="company name">Univeristé Catholique de Louvain</span></h3></span>
+            <span><h4 class="company location">Louvain-La-Neuve, BE</h4></span>
+        </div>
+        <div class="job">
+            <span><h4 class="job title">Bachelor in Economics and Management</h4></span>
+            <span><h4 class="job date">2006 - 2010</h4></span>
+        </div>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li><i class="material-icons">signal_cellular_alt</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_2_bar</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_1_bar</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_1_bar</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_1_bar</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_1_bar</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_1_bar</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_1_bar</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_1_bar</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_1_bar</i>Python</li>
+            <li><i class="material-icons">signal_cellular_alt_1_bar</i>Python</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Languages</h2>
+        <ul class="languages">
+            <li>French - C2</li>
+            <li>English - C2</li>
+            <li>Dutch - B1</li>
+            <li>Spanish - A1</li>
+        </ul>
+    </section>
 </body>
 
 </html>
