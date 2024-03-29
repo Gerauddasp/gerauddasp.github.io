@@ -2,7 +2,7 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: 10pt;
   width: 21cm;
-  height: 29.3cm;
+  height: 29.2cm;
   margin: 0 auto;
   padding: 0;
   padding-top: 2em;
@@ -178,6 +178,7 @@ section h2 {
   display: flex;
   justify-content: space-between;
   padding: 0;
+  margin-bottom: 0;
   list-style-type: none;
 }
 
